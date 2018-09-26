@@ -2,4 +2,4 @@
  da vidim ko stava;
  hiuhiuh;
  trudna rabota za samouk chovek;dada;
- proba linux proba ;
+ proba linux proba eqeqw;

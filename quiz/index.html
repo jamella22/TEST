@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IT Ops Interview Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>IT Operations Engineer Quiz</h1>
+    <p class="subtitle">Tailored to monitoring (Grafana/VictoriaMetrics/Loki), CMDB, Linux, Docker</p>
+    <form id="quiz-form"></form>
+    <div class="actions">
+      <button id="submit-btn" type="button">Submit</button>
+      <button id="reset-btn" type="button" class="secondary">Reset</button>
+    </div>
+    <section id="results" class="hidden"></section>
+    <section id="scenarios" class="hidden">
+      <h2>Scenario Practice</h2>
+      <ol>
+        <li>“/var/log at 90%” at 02:00 on api-prod-01. List first three commands and actions.</li>
+        <li>Build a minimal Grafana + VictoriaMetrics + Loki stack. Name components and one alert.</li>
+        <li>New app server added. Which CMDB relationships do you record and why?</li>
+      </ol>
+    </section>
+  </main>
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

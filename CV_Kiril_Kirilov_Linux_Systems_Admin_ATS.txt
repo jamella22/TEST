@@ -1,0 +1,45 @@
+Kiril Kirilov
+Montana, Bulgaria | +359 876 663 308 | Jamella8272@gmail.com
+
+Linux/System Administrator • Application Support • Monitoring
+
+SUMMARY
+Application Support Specialist with 4+ years supporting enterprise systems in finance and healthcare. Strong Linux administration (Ubuntu, RHEL/CentOS), L1–L2 incident management, and monitoring. Automates routine ops with Ansible/Bash; experienced with web servers (Nginx/Apache), basic databases (MySQL/Oracle), and ITSM tools (ServiceNow/Jira/Zendesk). Collaborative, SLA-focused, and comfortable in 24x7 environments.
+
+KEY SKILLS
+- Linux/Systems: Ubuntu, RHEL/CentOS, Bash, systemd, SSH, Nginx, Apache, cron, logrotate, users/permissions, file systems
+- Networking: TCP/IP, OSI model, VLANs, ACLs, DHCP, DNS, VPN, OpenVPN, Firewalls; Cisco IOS, Juniper, Extreme Networks, MikroTik
+- DevOps/Monitoring: Git, Jenkins (basic), Docker, Kubernetes (basic), Ansible; Zabbix, Grafana, Cacti
+- Databases/ITSM: MySQL, Oracle, SQL basics; ServiceNow, Jira, Zendesk; ITIL concepts (Incident/Change/Problem, SLAs)
+
+PROFESSIONAL EXPERIENCE
+Codix Bulgaria — Application Specialist (Installation & Delivery)
+Jun 2021 – Present | Sofia, Bulgaria
+- Triaged and resolved L1–L2 incidents via ServiceNow/Jira for business‑critical applications; consistently met SLA targets.
+- Performed Linux administration for application servers: package management, service configuration (Nginx/Apache), users, permissions, and log analysis.
+- Automated recurring maintenance tasks with Ansible and Bash to reduce manual effort and error rate.
+- Implemented and tuned monitoring/alerting in Zabbix and Grafana to improve visibility across services and dependencies.
+- Collaborated with development and DBA teams to analyze app issues, SQL/Oracle performance, and deployment readiness.
+
+Netsurf — Network/System Administrator
+2020 – 2021 | Bulgaria
+- Administered Linux and Windows servers; handled OS installation, patching, and routine maintenance.
+- Configured and supported LAN/WAN infrastructure: VLANs, ACLs, routing; Cisco/Juniper/Extreme; maintained DHCP/DNS and VPN/OpenVPN services.
+- Monitored network/server health (Zabbix/Cacti), troubleshot incidents, and escalated to vendors when necessary.
+
+WordPress Freelance — Developer
+2018 – 2020 | Remote
+- Delivered end‑to‑end WordPress/WooCommerce projects: hosting setup (cPanel), PHP/MySQL, themes/plugins, performance and security hardening.
+
+VIVACOM — Sales Expert
+2015 – 2019 | Sofia, Bulgaria
+- Customer service and sales operations; trained new hires; tracked team and store targets.
+
+EDUCATION
+- Applied Physics — Sofia, Bulgaria
+- SoftUni — relevant courses in software and IT
+- Udemy — Linux/Networking/DevOps courses
+
+LANGUAGES
+- Bulgarian: Native
+- English: Intermediate (B1–B2)

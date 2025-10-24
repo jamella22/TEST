@@ -1,0 +1,61 @@
+global:
+  resolve_timeout: 5m
+  # Configure your notification channels here
+  # slack_api_url: 'YOUR_SLACK_WEBHOOK_URL'
+
+# Templates for notifications
+templates:
+  - '/etc/alertmanager/*.tmpl'
+
+# Route configuration
+route:
+  group_by: ['alertname', 'cluster', 'service']
+  group_wait: 10s
+  group_interval: 10s
+  repeat_interval: 12h
+  receiver: 'default-receiver'
+  
+  routes:
+    # Critical alerts - immediate notification
+    - match:
+        severity: critical
+      receiver: 'critical-receiver'
+      repeat_interval: 5m
+    
+    # Warning alerts - less frequent
+    - match:
+        severity: warning
+      receiver: 'warning-receiver'
+      repeat_interval: 30m
+
+# Receivers (notification destinations)
+receivers:
+  - name: 'default-receiver'
+    # Default receiver - logs to console
+    webhook_configs:
+      - url: 'http://localhost:5001/webhook'
+        send_resolved: true
+
+  - name: 'critical-receiver'
+    # For critical alerts - configure Slack, PagerDuty, etc.
+    webhook_configs:
+      - url: 'http://localhost:5001/webhook-critical'
+        send_resolved: true
+    # Example Slack configuration (uncomment and configure):
+    # slack_configs:
+    #   - channel: '#alerts-critical'
+    #     title: 'Critical Alert: {{ .GroupLabels.alertname }}'
+    #     text: '{{ range .Alerts }}{{ .Annotations.description }}{{ end }}'
+
+  - name: 'warning-receiver'
+    webhook_configs:
+      - url: 'http://localhost:5001/webhook-warning'
+        send_resolved: true
+
+# Inhibition rules (suppress certain alerts when others are firing)
+inhibit_rules:
+  - source_match:
+      severity: 'critical'
+    target_match:
+      severity: 'warning'
+    equal: ['alertname', 'instance']

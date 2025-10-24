@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRE Lab - Sample Application</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .link-card {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.2s;
+        }
+        .link-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .status {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(0, 255, 0, 0.2);
+            border-radius: 5px;
+            text-align: center;
+        }
+        code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 SRE Interview Lab</h1>
+        <div class="status">
+            ✅ Monitoring Stack is Running
+        </div>
+        
+        <h2>Access Monitoring Tools:</h2>
+        <div class="links">
+            <a href="http://localhost:3000" class="link-card" target="_blank">
+                <h3>📊 Grafana</h3>
+                <p>Dashboards & Visualization</p>
+                <small>admin / admin</small>
+            </a>
+            
+            <a href="http://localhost:9090" class="link-card" target="_blank">
+                <h3>🔥 Prometheus</h3>
+                <p>Metrics & Queries</p>
+            </a>
+            
+            <a href="http://localhost:9093" class="link-card" target="_blank">
+                <h3>🚨 Alertmanager</h3>
+                <p>Alert Management</p>
+            </a>
+            
+            <a href="http://localhost:8080" class="link-card" target="_blank">
+                <h3>📦 cAdvisor</h3>
+                <p>Container Metrics</p>
+            </a>
+        </div>
+
+        <h2 style="margin-top: 40px;">Quick Commands:</h2>
+        <pre><code># View all containers
+docker-compose ps
+
+# View logs
+docker-compose logs -f prometheus
+
+# Restart services
+docker-compose restart
+
+# Stop all
+docker-compose down</code></pre>
+
+        <p style="margin-top: 30px; text-align: center; opacity: 0.8;">
+            Good luck with your SRE interview preparation! 🎯
+        </p>
+    </div>
+</body>
+</html>

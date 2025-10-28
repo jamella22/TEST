@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  # NODE 2: Ubuntu Lab Server
+  # This simulates a separate Linux server (like AWS EC2)
+  ubuntu-node:
+    image: ubuntu:22.04
+    container_name: ubuntu-node
+    # hostname removed - conflicts with network_mode in node-exporter-2
+    
+    # Keep container running
+    command: /bin/bash -c "apt-get update && apt-get install -y curl wget vim net-tools procps && tail -f /dev/null"
+    
+    # Attach to existing monitoring network
+    networks:
+      - 02-monitoring-stack_monitoring
+    
+    # Expose SSH and Node Exporter ports
+    ports:
+      - "2222:22"        # SSH access
+      - "9101:9100"      # Node Exporter (different from node_exporter on host)
+    
+    # Mount volumes for persistence
+    volumes:
+      - ubuntu_node_data:/home
+      - ./scripts:/scripts:ro
+    
+    restart: unless-stopped
+    
+    # Add capabilities for system monitoring
+    cap_add:
+      - SYS_ADMIN
+      - NET_ADMIN
+    
+    # Environment variables
+    environment:
+      - TZ=Europe/Sofia
+
+  # Node Exporter for Ubuntu Node
+  # This sends metrics from Node 2 to Prometheus on Node 1
+  node-exporter-2:
+    image: prom/node-exporter:latest
+    container_name: node-exporter-2
+    
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.sysfs=/host/sys'
+      - '--collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)'
+    
+    # Attach to monitoring network separately
+    networks:
+      - 02-monitoring-stack_monitoring
+    
+    # Expose on different port to avoid conflict
+    ports:
+      - "9102:9100"
+    
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    
+    restart: unless-stopped
+
+volumes:
+  ubuntu_node_data:
+
+# Use existing monitoring network
+networks:
+  02-monitoring-stack_monitoring:
+    external: true
+

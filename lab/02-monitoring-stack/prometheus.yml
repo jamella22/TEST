@@ -13,7 +13,7 @@ alerting:
 
 # Load rules once and periodically evaluate them
 rule_files:
-  # - "alerts.yml"
+  - "alerts.yml"
 
 # Scrape configurations
 scrape_configs:
@@ -36,4 +36,12 @@ scrape_configs:
   - job_name: 'sample_app'
     static_configs:
       - targets: ['sample_app:80']
+  
+  # NODE 2: Ubuntu Lab Server
+  - job_name: 'node-2'
+    static_configs:
+      - targets: ['node-exporter-2:9100']
+        labels:
+          node: 'ubuntu-node'
+          environment: 'lab'
 

@@ -1,0 +1,44 @@
+Kiril Kirilov
+Montana, Bulgaria | +359 876 663 308 | Jamella8272@gmail.com
+
+Junior DevOps • Application Support • Linux/Automation
+
+SUMMARY
+Application Support/Junior DevOps practitioner with Linux administration experience and a focus on automation and CI/CD fundamentals. Comfortable with Ansible, Git, Jenkins (basic), Docker, and Kubernetes (basic). Strong incident/change management using ITSM tools; improves reliability with monitoring (Zabbix/Grafana) and scripting (Bash).
+
+KEY SKILLS
+- DevOps/Automation: Git, Jenkins (basic), CI/CD concepts, Docker, Kubernetes (basic), Ansible, Bash
+- Platforms: Ubuntu, RHEL/CentOS; Nginx, Apache; SSH, systemd; log analysis
+- Monitoring/Observability: Zabbix, Grafana, Cacti; alerting and dashboards
+- Databases/ITSM: MySQL, Oracle basics, SQL; ServiceNow, Jira, Zendesk; ITIL (Incident/Change/Problem)
+- Networking: TCP/IP, OSI model, VLANs, DHCP/DNS, VPN/OpenVPN; Cisco/Juniper/Extreme/MikroTik basics
+
+PROFESSIONAL EXPERIENCE
+Codix Bulgaria — Application Specialist (Installation & Delivery)
+Jun 2021 – Present | Sofia, Bulgaria
+- Resolved L1–L2 incidents via ServiceNow/Jira; collaborated with dev/DBA teams to stabilize releases and hotfixes.
+- Automated routine operations (user provisioning, config deployment, log rotation) using Ansible and Bash.
+- Supported Linux application servers and web stack (Nginx/Apache), performed deployments and environment checks.
+- Implemented monitoring and alerting with Zabbix/Grafana to improve service visibility and reduce time to detect.
+
+Netsurf — Network/System Administrator
+2020 – 2021 | Bulgaria
+- Managed Linux/Windows servers; configured DHCP/DNS, VPN/OpenVPN, and basic routing/switching.
+- Monitored infrastructure with Zabbix/Cacti and handled escalations to vendors.
+
+WordPress Freelance — Developer
+2018 – 2020 | Remote
+- Built WordPress/WooCommerce solutions end‑to‑end: hosting (cPanel), PHP/MySQL, themes/plugins, performance/security.
+
+VIVACOM — Sales Expert
+2015 – 2019 | Sofia, Bulgaria
+- Customer service and sales operations; trained new hires; tracked team and store goals.
+
+EDUCATION
+- Applied Physics — Sofia, Bulgaria
+- SoftUni — relevant courses in software and IT
+- Udemy — Linux/Networking/DevOps courses
+
+LANGUAGES
+- Bulgarian: Native
+- English: Intermediate (B1–B2)

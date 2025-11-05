@@ -1,0 +1,112 @@
+﻿Kiril
+Kirilov
+	Experience
+
+
+2021.06 – 2025.11
+Application Specialist *( Installation & Delivery )*Codix Bulgaria
+  Application support tools (e.g., ServiceNow, Jira, Zendesk)
+  OS knowledge (Windows, Linux)
+  Databases (e.g., SQL, Oracle)
+  ITIL or service management frameworks
+  Monitoring tools 
+  Problem-solving, communication
+ Ansible , Docker , Kubernetes
+
+
+Application Support Specialist with over 4 years of experience supporting enterprise software applications across finance and healthcare sectors. Skilled in issue diagnosis and process automation. Adept at cross-functional communication, improving incident resolution times, and ensuring high availability of critical systems.
+
+
+
+
+
+
+
+
+
+2020 - 2021
+IT• Netwok/System Administrator • Netsurf
+Managed network connectivity and ensured its LAN/WAN infrastructure was operating according to prescribed best practices and technical standards.
+Ensured stability and security of network by regularly monitoring systems, trouble-shooting potential problems and cascading software issues to vendors for immediate resolution.
+Installed, maintained, supported and updated all operating systems for all workstations and servers within a specific network.
+Installed and configured all VPN solutions for wireless devices,   
+laptops, desktops and networked printers.
+
+
+Tech stack  : Linux /  Mint , Slackware , Ubuntu , Centos / ,
+Monitoring system : Grafana , Zabbix , Cacti ,
+Networking : Juniper, Cisco , Extreme Networks ,Miktorik 
+TCP/IP OSI 
+Apache / Ngnix , Mysql , VPN / OPENVPN /
+Ansible , Docker , Kubernetes.
+
+
+Have little experience with continuous integration CI/CD with Jenkins set up with Ubuntu server .
+
+
+2018–2020
+Wordpress Freelance• developer • international clients
+Contract or part – time jobs .
+Full stack development from hosting to completed product.  
+Tech stack :  Cpanel , WordPress ,Woocommerce, PHP , MYSQL.
+Front end and Back end with different plugins,builders and themes.
+
+
+2015–2019
+Telecomunication• Sales Expert • VIVACOM
+Administrative and operational duties Set up and maintain the store according to a strict planogram Provide  customer  service  Sale phones and accessories Team selling Hold and lead team meetings Actively track stores sales for employee and store goals Train new hires in account and bill analysis and best practices Telemarking calls and ﬂyering Know all current promotions and have a working knowledge of expired ones including their restrictions and requirements and how to execute them at point of  sale.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Education
+Aplied Physics, Sofia,Bulgaria
+
+
+Software Academy / Softuni / Sofia ,Bulgaria 
+
+Udemy different courses 
+Communication
+Strong communication skills in Bulgarian / native language /
+
+
+English written and spoken / is average , not fluent /
+	
+
+	
+
+	
+
+	 gps icon 
+
+	Montana,Bulgaria
+	
+
+	
+
+	
+
+	 phone icon 
+
+	+359876663308
+	
+
+	
+
+	
+
+	 email icon 
+
+	Jamella8272@gmail.com

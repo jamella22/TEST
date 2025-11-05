@@ -1,0 +1,44 @@
+Kiril Kirilov
+Montana, Bulgaria | +359 876 663 308 | Jamella8272@gmail.com
+
+Network Administrator • Systems Administration • Application Support
+
+SUMMARY
+Network/System Administrator with experience across LAN/WAN operations, Linux server administration, and application support. Hands‑on with Cisco/Juniper/Extreme/MikroTik, VLANs/ACLs, DHCP/DNS, VPN/OpenVPN, and firewalls. Strong incident management and monitoring (Zabbix/Grafana/Cacti); collaborates with cross‑functional teams to maintain availability and performance.
+
+KEY SKILLS
+- Networking: TCP/IP, OSI model, VLANs, ACLs, routing, DHCP, DNS, VPN, OpenVPN, Firewalls; Cisco IOS, Juniper, Extreme Networks, MikroTik
+- Systems: Ubuntu, RHEL/CentOS, Bash, systemd, Nginx, Apache, SSH, backups, patching, log analysis
+- Monitoring/Automation: Zabbix, Grafana, Cacti; Ansible; Git; Jenkins (basic)
+- Databases/ITSM: MySQL, Oracle basics; ServiceNow, Jira, Zendesk; ITIL processes (Incident/Change/Problem)
+
+PROFESSIONAL EXPERIENCE
+Netsurf — Network/System Administrator
+2020 – 2021 | Bulgaria
+- Administered LAN/WAN infrastructure: configured VLANs/ACLs and routing on Cisco/Juniper/Extreme switches/routers.
+- Deployed and supported DHCP/DNS and site‑to‑site/remote‑access VPN (OpenVPN); ensured secure remote connectivity.
+- Managed Linux/Windows servers, OS installs/patching, and routine maintenance; troubleshot endpoint connectivity issues.
+- Monitored network health with Zabbix/Cacti and escalated vendor issues to ensure timely resolution.
+
+Codix Bulgaria — Application Specialist (Installation & Delivery)
+Jun 2021 – Present | Sofia, Bulgaria
+- Supported enterprise applications, resolving L1–L2 incidents via ServiceNow/Jira and coordinating with dev/DBA teams.
+- Maintained application servers on Linux: web services (Nginx/Apache), authentication/permissions, and logs.
+- Built monitoring dashboards/alerts in Zabbix/Grafana and automated maintenance with Ansible/Bash.
+
+WordPress Freelance — Developer
+2018 – 2020 | Remote
+- Delivered WordPress/WooCommerce sites: hosting setup (cPanel), PHP/MySQL, themes/plugins, performance/security.
+
+VIVACOM — Sales Expert
+2015 – 2019 | Sofia, Bulgaria
+- Customer service and sales operations; trained new hires; tracked team and store goals.
+
+EDUCATION
+- Applied Physics — Sofia, Bulgaria
+- SoftUni — relevant courses in software and IT
+- Udemy — Linux/Networking/DevOps courses
+
+LANGUAGES
+- Bulgarian: Native
+- English: Intermediate (B1–B2)
